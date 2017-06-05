@@ -1,0 +1,102 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    position: relative;
+    color: rgb(48, 48, 48);
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(250, 250, 250);
+    min-height: 100%;
+    letter-spacing: .25rem;
+    overflow-x: hidden;
+}
+
+p {
+    font-family: 'Overpass Mono', monospace;
+}
+
+.logo {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    padding: .7rem 3rem .7rem 3rem;
+    background-color: rgba(245, 245, 245, .99);
+}
+
+.logo-img {
+    width: 200px;
+    height: 97px;
+    margin-left: 3rem;
+}
+
+.logo-text {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, .15);
+}
+
+.fixed-lock {
+    opacity: .15;
+    margin-top: -.3rem;
+    width: 30px;
+    height: 30px;
+}
+
+.main-header {
+    width: 100%;
+    background-image: url('../parallax/encrypt-ban.png');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.main-logo {
+    display: block;
+    margin-left: 3rem;
+    width: 300px;
+    height: 147px;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header-lock {
+    width: 60px;
+    height: 60px;
+    margin-top: -.3rem;
+}
+
+.content-wrap {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 0 3rem 0;
+    max-width: 1100px;
+}
+
+.collapse-image {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 3rem 0 5rem 0;
+    margin-top: 7rem;
+    background-color: rgb(245, 245, 245);
+}
