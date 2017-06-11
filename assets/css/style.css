@@ -17,10 +17,7 @@ body {
     min-height: 100%;
     letter-spacing: .25rem;
     overflow-x: hidden;
-}
-
-p {
-    font-family: 'Overpass Mono', monospace;
+    cursor: default;
 }
 
 .logo {
@@ -29,7 +26,7 @@ p {
     z-index: 1;
     width: 100%;
     padding: .7rem 3rem .7rem 3rem;
-    background-color: rgba(245, 245, 245, .99);
+    background-color: rgba(253, 253, 253, .99);
 }
 
 .logo-img {
@@ -41,7 +38,7 @@ p {
 .logo-text {
     font-size: 1.7rem;
     font-weight: 700;
-    color: rgba(0, 0, 0, .15);
+    color: rgba(38, 50, 56, .15);
 }
 
 .fixed-lock {
@@ -49,17 +46,6 @@ p {
     margin-top: -.3rem;
     width: 30px;
     height: 30px;
-}
-
-.main-header {
-    width: 100%;
-    background-image: url('../parallax/encrypt-banner.png');
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 4rem 3rem 4rem 3rem;
 }
 
 .main-logo {
@@ -73,6 +59,7 @@ p {
     text-align: center;
     font-size: 2rem;
     font-weight: 700;
+    color: rgb(38, 50, 56);
 }
 
 .header-lock {
@@ -93,29 +80,42 @@ p {
     width: 100%;
 }
 
-.parallax {
-    width: 100%;
-    padding: 3rem;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.image-small {
+    max-width: 250px;
 }
 
-.p1 {
-    background-image: url('../parallax/para-mid.png');
+.touchID {
+    max-width: 150px;
 }
 
-.p2 {
-    background-image: url('../parallax/para-mid2.png');
+.dark {
+    background-color: rgb(245, 245, 245);
 }
 
-.p3 {
-    background-image: url('../parallax/para-mid3.png');
+.text-col {
+    text-align: center;
+    padding: 2.5rem 3rem 1rem 3rem;
 }
 
-.p4 {
-    background-image: url('../parallax/para-mid4.png');
+h2 {
+    color: rgb(38, 50, 56);
+}
+
+.info-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 3px;
+    text-align: center;
+    max-width: 950px;
+    border: 1px solid rgb(245, 245, 245);
+}
+
+.info-container > p {
+    color: rgb(38, 50, 56);
+    font-size: 1.3rem;
 }
 
 footer {
