@@ -118,6 +118,16 @@ h2 {
     font-size: 1.3rem;
 }
 
+.appstore {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    opacity: .3;
+    color: rgb(38, 50, 56);
+    text-align: center;
+}
+
 footer {
     text-align: center;
     width: 100%;

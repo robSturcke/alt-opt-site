@@ -39,6 +39,14 @@
         width: 15px;
         height: 15px;
     }
+
+    .text-col {
+         padding: 1.5rem 1.5rem .5rem 1.5rem;
+    }
+
+    .content-wrap {
+        padding: .5rem;
+    }
 }
 
 @media (max-width: 400px) {
