@@ -44,6 +44,29 @@ body {
     color: rgba(38, 50, 56, .15);
 }
 
+.push-up {
+    display: none;
+    position: fixed;
+    right: 3.7rem;
+    bottom: 3.7rem;
+    z-index: 1;
+    width: 60px;
+    height: 60px;
+    padding-left: .85rem;
+    padding-bottom: .2rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 2px 4px -2px rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, .2);
+}
+
+.ion-chevron-up {
+    font-size: 2.4rem;
+    text-align: center;
+    color: rgb(144, 164, 174);
+}
+
 .fixed-lock {
     opacity: .15;
     margin-top: -.3rem;
